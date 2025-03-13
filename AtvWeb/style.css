@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: gray 1px ridge;
+}
+#logo{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#menu{
+    display: flex;
+    list-style-type: none;
+}
+menu>li{
+    padding: 15px;
+    border: black 2px solid;
+    margin: 20px;
+}
+menu>li:hover{
+    opacity: 40%;
+    color: blue;
+    border-color: blue;
+}
