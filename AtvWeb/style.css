@@ -10,8 +10,8 @@
     border: gray 1px ridge;
 }
 #logo{
-    width: 10px;
-    height: 10px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     margin: 10px;
@@ -22,11 +22,13 @@
 }
 menu>li{
     padding: 15px;
-    border: black 2px solid;
     margin: 20px;
+    font-size: 120%;
 }
 menu>li:hover{
-    opacity: 40%;
-    color: blue;
-    border-color: blue;
+    text-decoration: underline;
+}
+#LiBusca{
+    display: flex;
+    border-radius:15px;
 }
